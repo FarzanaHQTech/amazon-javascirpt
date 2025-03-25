@@ -1,0 +1,148 @@
+body{
+    background: #fff;
+
+}
+
+.breadcrum{
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #565656;
+}
+/* product-display */
+.product-display{
+    min-height: 100%;
+    padding: 10px 20px;
+    display: flex;
+}
+.product-d-image{
+    display: flex;
+    gap: 10px;
+}
+.product-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-icon img{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* product-d-details */
+
+.product-d-details{
+    margin: 0 30px;
+   
+}
+.product-title{
+    font-size: 25px;
+    
+}
+.brand-store{
+    margin-top: 5px;
+    color: #007185;
+    font-size: 14px;
+}
+.product-rating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-rating div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.product-rating p{
+    color: #007185;
+}
+.product-rating .fa-star{
+    color: goldenrod;
+}
+.product-rating p span{
+    color: #fff;
+    background: #c73500;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.product-rating h5{
+    font-weight: 500;
+}
+
+.product-d-price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.product-d-price div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.product-d-price div p{
+    font-size: 26px;
+    color: #c73500;
+}
+.product-d-price div h1 span{
+    font-size: 26px;
+    font-weight: 500;
+
+}
+.product-d-price div h5{
+    font-weight: 400;
+    color: #565656;
+    font-size: 15px;
+}
+.product-d-price h5 span{
+    text-decoration: line-through;
+}
+.product-price p span{
+    color: #007185;
+}
+
+.product-color-selection{
+    margin: 15px 0;
+}
+.product-color-option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #cbcbcb;
+}
+.product-description h1{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.product-description ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+.product-d-purchase .fa-circle{
+    color: #007185;
+}
+.product-d-purchase .gap{
+    margin: 15px 0;
+}
+/* .product-d-purchase  span{
+    color: #007185;
+} */
+.delivery-location{
+    display: flex;
+    align-items: center;
+}
+.delivery-location .fa-location-dot{
+    margin-right: 10px;
+    /* font-size: 20px; */
+    color: #007185;
+}
